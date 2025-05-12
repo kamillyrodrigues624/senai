@@ -1,10 +1,5 @@
-horas_trabalhadas=float(input("digite o numero de horas normais trabalhadas:"))
-horas_exedentes=float(input("digite o numero de hoas extras trabalhadas:"))
-
-salario_total_bruto=
-salario_total_liquido=
-calcular_salario(horas_trabalhadas)
-
-print(f"salario bruto: R$"{salario_total_bruto:  .2f}")
-      
-print(f"salario liquido: R$ {salario_total_liquido:  .2f}")
+horas_normais = float(input("Horas normais: "))
+horas_extras = float(input("Horas extras: "))
+salario_bruto = (horas_normais * 10) + (horas_extras * 15)
+salario_liquido = salario_bruto * 0.9
+print(f"Bruto: R${salario_bruto}, Líquido: R${salario_liquido}")

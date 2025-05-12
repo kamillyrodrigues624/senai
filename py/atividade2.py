@@ -1,3 +1,3 @@
-celcius=int(input("leia a temperatura"))
-fahrenheit=(celcius * 9.5 ) + 32
-imprimir(fahrenheit)
+celsius = int(input("Qual a temperatura em graus Celsius: "))
+fahrenheit = (celsius * 1.8) + 32
+print ("A temperatura em graus F é ",fahrenheit)

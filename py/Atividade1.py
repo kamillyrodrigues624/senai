@@ -1,9 +1,10 @@
-sanduiches=float(input("quantos hamburgeres voce quer?"))
-hamburger=100 gramas
-2 queijo=100 gramas
-presunto=50 gramas
+quantidade = int(input("Insira a quantidade de sandwiches que deseja fazer: "))
 
-hamburger + queijo + presunto
-if= quantidade em quilos
+presunto_queijo = 0.05
+hamburguer = 0.1
 
-print("vai precisar   quilos de hamburger,queijo e presuto")
+calculo = quantidade * presunto_queijo
+calculo2 = quantidade * hamburguer
+
+print(f"A quantidade para comprar de hamburguer é: {calculo2}Kg")
+print(f"A quantidade para comprar de presunto e queijo é {calculo}Kg")
